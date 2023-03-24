@@ -1,0 +1,37 @@
+winget install --id GitHub.cli
+
+Gh auth login
+
+Mkdir projetgit
+
+Cd projetgit
+
+gh repo create
+
+git clone https://github.com/MPFabio/test
+
+cd test
+
+echo blablabla >> README.md
+
+git add README.md
+
+git commit -m maj
+
+git push https://github.com/MPFabio/test
+
+mkdir cedric
+
+cd cedric
+
+git clone https://github.com/cedric69lt/repoindivcedric
+
+cd repoindivcedric
+
+echo blabla > README.md
+
+git add README.md
+
+git commit –m maj
+
+git push https://github.com/cedric69lt/repoindivcedric
